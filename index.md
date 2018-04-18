@@ -6,11 +6,11 @@ Using ASP.NET C#, Ruby programming languages for developing and managing enterpr
 
 Core Abilities : OOP Knowledge, Server Architecture, Managing Software Teams, Team Foundation Server 2010 / 2012, SQL and NO-SQL Solutions, Basecamp, Jira, MS Project, Github, Ubuntu, Nginx, Apache and Phusion Passenger.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Apache2 Basic Authentication
 
 ```markdown
+#sites-available altında oluşturduğumuz conf dosyasının içerisine aşağıda ki kod bloğunu ekliyoruz. 
+
 <Directory "/var/www/html/protected">
   AuthType Basic
   AuthName "Authentication Required"
@@ -20,6 +20,11 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
   Order allow,deny
   Allow from all
 </Directory>
+
+#daha sonra yeni bir htpasswd kullanıcısı oluşturuyoruz. 
+
+htpasswd /etc/htpasswd/.htpasswd admin
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
