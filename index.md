@@ -12,7 +12,7 @@ Core Abilities : OOP Knowledge, Server Architecture, Managing Software Teams, Te
 #sites-available altında oluşturduğumuz conf 
 #dosyasının içerisine aşağıda ki kod bloğunu ekliyoruz. 
 
-<Directory "/var/www/html/protected">
+<Directory '/var/www/html/protected'>
   AuthType Basic
   AuthName "Authentication Required"
   AuthUserFile "/etc/htpasswd/.htpasswd"
