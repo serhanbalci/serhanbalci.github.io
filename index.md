@@ -1,29 +1,25 @@
 ## Serhan Balcı
 
-You can use the [editor on GitHub](https://github.com/serhanbalci/serhanbalci.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+14 years of professional experience & knowledge about software development such as internet & portal development, new technologies, social media development, e-commerce systems and managing software development team members. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Using ASP.NET C#, Ruby programming languages for developing and managing enterprise level projects. Also have a great knowledge about MS SQL Server, PostgreSQL and No-SQL solutions such as MongoDB, Couchbase, CouchDB, Redis. Also knowledge about Memcached and Elastic Search. 
+
+Core Abilities : OOP Knowledge, Server Architecture, Managing Software Teams, Team Foundation Server 2010 / 2012, SQL and NO-SQL Solutions, Basecamp, Jira, MS Project, Github, Ubuntu, Nginx, Apache and Phusion Passenger.
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+<Directory "/var/www/html/protected">
+  AuthType Basic
+  AuthName "Authentication Required"
+  AuthUserFile "/etc/htpasswd/.htpasswd"
+  Require valid-user
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+  Order allow,deny
+  Allow from all
+</Directory>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
