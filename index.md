@@ -9,7 +9,8 @@ Core Abilities : OOP Knowledge, Server Architecture, Managing Software Teams, Te
 ### Apache2 Basic Authentication
 
 ```markdown
-#sites-available altında oluşturduğumuz conf dosyasının içerisine aşağıda ki kod bloğunu ekliyoruz. 
+#sites-available altında oluşturduğumuz conf 
+#dosyasının içerisine aşağıda ki kod bloğunu ekliyoruz. 
 
 <Directory "/var/www/html/protected">
   AuthType Basic
@@ -27,12 +28,8 @@ htpasswd /etc/htpasswd/.htpasswd admin
 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### LoremPixel ile Dummy Resim
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/serhanbalci/serhanbalci.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+http://lorempixel.com/400/200/sports/
+```
